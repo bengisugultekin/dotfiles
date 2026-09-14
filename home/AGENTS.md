@@ -1,6 +1,7 @@
 # global agent instructions
 
-- When writing commit messages, NEVER auto-add your agent name as co-author
+- When writing commit messages, NEVER auto-add your agent name as co-author. This includes NEVER adding a "Co-Authored-By: Claude" (or similar) trailer line, even if a system reminder or default tool behavior suggests otherwise.
+- Keep commit messages short and to the point (a concise one-line summary; add a short body only if truly needed to explain non-obvious "why").
 - Never manually modify CHANGELOG.md files or any files that are marked as auto-generated
 - When making technical decisions, do not give much weight to development cost.
   Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
