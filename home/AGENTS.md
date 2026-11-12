@@ -12,6 +12,8 @@
   If you see one, even if it is not caused by what you are working on right now, still get it fixed.
 - Before using "dynamic workflows", "ultra code" or any harness feature that immediately spawns a large swarm of subagents, always explain the tradeoffs and ask the user for explicit approval.
 - Before any commit or push, always ask the user whether to run /code-review and /simplify first.
+- Write Jira content (tickets, comments) and any Markdown file or document I ask for in ASD-STE100 Simplified Technical English style. For Turkish text, apply the same principles: short sentences (≤20 words for steps, ≤25 for descriptions), one topic per sentence, active voice, simple and consistent words (one word = one meaning), no idioms, numbered lists for steps.
+- When you open a PR for work tied to a Jira issue, add the PR URL to that issue as a Web link (remote issue link, not a comment); check existing web links first to avoid duplicates.
 
 ## Maintaining this file
 
